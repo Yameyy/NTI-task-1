@@ -366,7 +366,7 @@ h4 {
     display: inline-block;
 }
 
-#section5 {
+#section5 ,#section6, #section7 {
     padding: 0 0 100px;
 }
 
@@ -418,8 +418,20 @@ h4 {
     display: inline-block;
     border: 0;
 }
+#section7 hr {
+    margin: 30px 0;
+    width: 64px;
+    height: 2px;
+    background: #ff9b51;
+    display: inline-block;
+    border: 0;
+}
+#section7 h2 {
+    text-align: center;
+    text-transform: uppercase
+}
 
-.card {
+.card, .card-price {
     display: inline-block;
     width: 33%;
     text-align: center;
@@ -444,8 +456,17 @@ h4 {
     font-size: 22px;
     background-color: white;
 }
-
-
+.card-details{
+    padding-top: 15px;
+    margin-right: 40px;
+}
+.card-details li{
+    list-style-type: none;
+}
+.card-details h3 p{
+    background-color: black;
+    color: white;
+}
 /* #section11 {
     padding: 15px 0 135px;
 }
