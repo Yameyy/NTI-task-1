@@ -15,8 +15,13 @@ html {
     clear: both;
 }
 
-#section3,#section5,#section7
-{background-color:hsl(0deg 0% 96%);;}
+#section3,
+#section5,
+#section7 {
+    background-color: hsl(0deg 0% 96%);
+    ;
+}
+
 
 /* global values */
 
@@ -408,17 +413,24 @@ h4 {
     width: 33%;
     text-align: center;
 }
-.comment{
+
+.comment {
     padding: 25px 15px;
     border-radius: 4px;
     margin-bottom: 25px;
     background-color: #f5f5f5;
     float: left;
 }
-.card{position: relative;}
 
-.avatar{float: left;}
-.triangle{
+.card {
+    position: relative;
+}
+
+.avatar {
+    float: left;
+}
+
+.triangle {
     position: absolute;
     top: 61%;
     left: 14px;
@@ -428,16 +440,25 @@ h4 {
     border-right: 14px solid transparent;
     border-top: 16px solid #f5f5f5;
 }
-.names{    float: left;
+
+.names {
+    float: left;
     padding: 0;
     margin: 0;
-    line-height: 0;}
-.names h3{padding: 15px;
+    line-height: 0;
+}
+
+.names h3 {
+    padding: 15px;
     color: hsl(0deg 0% 20%);
     font-size: 22px;
     background-color: white;
 }
-.names p{margin: 10px;}
+
+.names p {
+    margin: 10px;
+}
+
 .card a {
     display: inline-block;
     height: 50px;
@@ -469,7 +490,8 @@ h4 {
     border-bottom: 1px solid hsl(0deg 0% 96%);
     text-transform: uppercase;
     padding: 5px;
-    background-color: hsl(0deg 0% 100%);;
+    background-color: hsl(0deg 0% 100%);
+    ;
 }
 
 .card-price h3 {
@@ -478,8 +500,15 @@ h4 {
     margin-bottom: 1px;
     padding: 0;
 }
-sub{font-size: 25px;}
-.price{font-size: 50px;}
+
+sub {
+    font-size: 25px;
+}
+
+.price {
+    font-size: 50px;
+}
+
 .card-price p {
     background-color: hsl(0deg 0% 20%);
     color: white;
@@ -614,12 +643,17 @@ footer {
     background-color: black;
     width: 100%;
 }
+
 a#top-btn {
     font-size: 30px;
-    color: indigo;
+    color: #ff9b51;
     position: fixed;
-    right: 4%;
+    right: 3%;
     bottom: 70px;
     font-weight: bold;
+    text-decoration: none;
 }
-a#top-btn:hover{color:  hsl(0deg 0% 80%);}
+
+a#top-btn:hover {
+    font-size: 40px;
+}
